@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./aboutus.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <div id="whole page">
+        <div id="header">
+            <div id="inner-header">
+                <div id="logo">Explore Hyderabad</div>
+                <!-- <a href="signup.html"><button id="sl1" type="button" class="btn btn-primary">Sign Up/Sign In</button></a> -->
+                <div id="sl"><a href="feedback.html"><btn btn-primary id="bt">Feedback</btn></a></div>
+                <div id="sl"><a href="index.html"><btn btn-primary id="bt">Home</btn></a></div>
+            </div>
+        </div>
+        <div id="content">
+            <!-- Slideshow container -->
+            <div class="slideshow-container fade">
+
+                <!-- Full images with numbers and message Info -->
+                <div class="Containers">
+                    <div class="MessageInfo"></div>
+                    <img src="./images/char2.webp" style="width:100%">
+                    <div class="Info"></div>
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo"></div>
+                    <img src="./images/school.jpg" style="width:100%">
+                    <div class="Info"></div>
+                </div>
+                <div class="Containers">
+                    <div class="MessageInfo"></div>
+                    <img src="./images/tourism (1).jpg" style="width:100%">
+                    <div class="Info"></div>
+                </div>
+
+                <!-- Back and forward buttons -->
+                <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The circles/dots -->
+            <div style="text-align:center">
+                <span class="dots" onclick="currentSlide(1)"></span>
+                <span class="dots" onclick="currentSlide(2)"></span>
+                <span class="dots" onclick="currentSlide(3)"></span>
+            </div>
+            <div class="container-fluid">
+                <div class="row" id="items">
+                    <div class="col" id="aboutus">
+                        <h2>About Us</h2>
+                        <p>Just over a year ago, we became fascinated by the idea of discovering all the places in Hyderabad.What if any new person can know about Hyderabad on their own?</p>
+                        <div><button id="button" onclick="reply()">Learn more</button></div>
+                    </div>
+                </div>
+                <div id="items">
+                    <div id="ourteam">
+                        <h2>Our Team</h2>
+                        <p>We're optimistic for the future where the people live healthier, more informed, and more creative.</p>
+                        <div><a href="ourteam.html"><button id="button">Our Team</button></a></div>
+                    </div>
+                </div>
+                <div id="items">
+                    <div id="contactus">
+                        <h2>Contact Us</h2>
+                        <p>If you have any questions, just fill the contact form, and we will answer you shortly.</p>
+                        <div><a href="feedback.html"><button id="button">Fill Form</button></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="inner-footer">Copyright @ Explore Hyderabad. All Rights Reserved | Contact Us: +91 90000 00000
+            </div>
+        </div>
+    </div>
+    <script src="./aboutus.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
